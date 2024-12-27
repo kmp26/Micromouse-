@@ -9,7 +9,7 @@ For this project, I have used SLOEBER - the Eclipse-Arduino IDE that runs on Win
 
 The software in this project will not build in the Arduino environment without some serious re-organisation. While that may be annoying, the Arduino environment is not well suited to development of more complex projects. However, you can use the code as you see fit so by all means have a go.
 
-Altogether, there are about 3600 line of code split across 30 or so source files. The project also has CMake files and will build in **[CLion](https://www.jetbrains.com/clion/)** if you install the **[Clion Arduino plugin](https://plugins.jetbrains.com/plugin/9984-arduino)**. CLion is an excellent C/C++ development environment that I would highly recommend.
+Altogether, there are about 3600 line of code split across 30 or so source files. The project also has CMake files and will build in **[CLion](https://www.jetbrains.com/clion/)** if you install the **[Clion Arduino plugin](https://plugins.jetbrains.com/plug  in/9984-arduino)**. CLion is an excellent C/C++ development environment that I would highly recommend.
 
 In its current state, the mouse firmware compiles to about 20k flash and 1200 bytes RAM. It could be reduced by removing a bunch of test and user interface code but there seems little point. Note that, if you build a mouse with the more common ATMega328, it has only 2k RAM compared to the 2.5k available on the ATMega32u4.
 
